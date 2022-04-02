@@ -20,6 +20,7 @@
    3. create router for product screen
 
 7. Create Node.js Server
+
    1. run npm init in root folder(backend terminal)
    2. Update package.json set type: module
    3. Add .js to imports
@@ -40,3 +41,12 @@
    development er pore r use kora hobe na -->
    14. ekhon nodemon use korte hobe.backend er package.json er scripts e start:nodemon server.js likhte hobe.
    15. run npm start
+
+8. Fetch Products From Backend
+   <!-- proxy use er maddome backend theke data frontend e ana hobe.
+   ekhane proxy dia 3000 port er modde amader backend er 5000 port er dsata run korano hobe. -->
+   1. set proxy in package.json(frontend er)
+   2. npm install axios(frontend e)
+   3. use state hook
+   4. use effect hook
+   5. use reducer hook
