@@ -14,6 +14,29 @@
    4. style product
 
 6. Add Routing
+
    1. npm i react-router-dom
    2. create router for home screen
    3. create router for product screen
+
+7. Create Node.js Server
+   1. run npm init in root folder(backend terminal)
+   2. Update package.json set type: module
+   3. Add .js to imports
+   4. npm install express(backend e install kora hoyse)
+   5. create server.js
+   6. add start command as node backend/server.js
+   7. require express
+   8. create route for / return backend is ready
+   9. move products.js from frontend to backend
+   10. create route for /api/products
+   11. return products
+   12. product list dekhar jonne server.js comment likhte hobe
+   <!-- backend kichu change korle seta start korar jonne bar bar server stop kore abr start korte hoy.
+      ei shomossa somadhaner jonne nodemon install korte hobe
+   -->
+   13. npm install nodemon --save-dev
+   <!--ekhane (-den) use kora hoyse karon nodemon just development er jonne use kora hobe.
+   development er pore r use kora hobe na -->
+   14. ekhon nodemon use korte hobe.backend er package.json er scripts e start:nodemon server.js likhte hobe.
+   15. run npm start
