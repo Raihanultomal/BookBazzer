@@ -45,8 +45,21 @@
 8. Fetch Products From Backend
    <!-- proxy use er maddome backend theke data frontend e ana hobe.
    ekhane proxy dia 3000 port er modde amader backend er 5000 port er dsata run korano hobe. -->
+
    1. set proxy in package.json(frontend er)
    2. npm install axios(frontend e)
    3. use state hook
    4. use effect hook
    5. use reducer hook
+
+9. Manage State By Reducer Hook
+   <!-- useState er cheye useReducer valo tai replace kora holo -->
+   <!-- jokhn complex state er kaj hobe tokhn useReducer -->
+   <!-- jokhn next state depend kore previous state er upor tokhn useReducer -->
+
+   1. define reducer
+   2. update fetch data
+   3. get state from useReducer
+      <!-- state changes gula dekhar jonne useReducer logger use hoy -->
+      <!-- logger use kore state er kaj thik vabe hocce kina debug kora jay -->
+   4. npm install use-reducer-logger --force <!-- force karon react17 e eita kaj kore na-->
