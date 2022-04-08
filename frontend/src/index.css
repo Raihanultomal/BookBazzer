@@ -12,6 +12,10 @@ body {
 main {
   flex: 1;
 }
+.btn-primary {
+  background-color: gold;
+  color: black;
+}
 
 .products {
   display: flex;
@@ -21,6 +25,9 @@ main {
 .product {
   border: 1px #404040 solid;
   margin: 1rem;
+}
+.rating span {
+  color: gold;
 }
 .product img {
   width: 100%;
