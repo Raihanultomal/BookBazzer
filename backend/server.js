@@ -11,6 +11,16 @@ const app = express();
 app.get('/api/products', (req, res) => {
   res.send(data.products);
 });
+
+app.get('/api/products/slug/:slug', (req, res) => {
+  const product = data.products.find((x) => x.slug === req.params.slug);
+  if (product) {
+    res.send(product);
+  } else {
+    res.status(404).send({ message: 'Product not found' });
+  }
+});
+
 // backend server kon port e run korbe seta likhe dite hobe
 // karon 3000 port e frontend run kortese seta amra dekhechi
 // tai server run korar jonne 5000 port select kore dilam

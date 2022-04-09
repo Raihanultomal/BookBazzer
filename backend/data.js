@@ -18,7 +18,7 @@ const data = {
       category: 'uponnas',
       image: '/images/book9.png',
       price: 120,
-      countInStock: 10,
+      countInStock: 0,
       brand: 'books',
       rating: 4.5,
       numReviews: 10,
